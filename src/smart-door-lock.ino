@@ -10,18 +10,18 @@
 #include "addons/RTDBHelper.h"
 
 // =============================================
-//  KONFIGURASI — UBAH BAGIAN INI
+//  KONFIGURASI 
 // =============================================
 
-#define WIFI_SSID       "esp33"
-#define WIFI_PASSWORD   "12345678"
+#define WIFI_SSID       "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD   "YOUR_WIFI_PASSWORD"
 
-#define FIREBASE_API_KEY      "AIzaSyAodz5Nn06fJNhh8Yu9yRQdIlXTst7EAW4"
-#define FIREBASE_DATABASE_URL "https://marvel-sayang-josephine-default-rtdb.asia-southeast1.firebasedatabase.app"
+#define FIREBASE_API_KEY      "YOUR_FIREBASE_API_KEY"
+#define FIREBASE_DATABASE_URL "YOUR_FIREBASE_DATABASE_URL"
 
 // UID kartu RFID yang diizinkan — scan kartu dulu, lihat UID di Serial Monitor
 const String ALLOWED_CARDS[] = {
-  "42008669",  // ganti dengan UID kartu kamu
+  "42008669",  // USE YOUR CARD ID
   "D0050F5F"
 };
 const int CARD_COUNT = sizeof(ALLOWED_CARDS) / sizeof(ALLOWED_CARDS[0]);
