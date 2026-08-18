@@ -19,6 +19,10 @@ The door can also be controlled remotely through a web interface connected to Fi
 
 The system records access events and maintains basic usage statistics.
 
+## 📷 Project Poster
+
+![Smart Door Lock Project Poster](images/poster.jpg)
+
 ---
 
 ## ✨ Features
